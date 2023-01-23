@@ -5,8 +5,10 @@
 > https://hub.docker.com/_/postgres
 
 ## docker pull command
-> `$ docker pull postgres`
-> version : (PostgreSQL) 15.1 (Debian 15.1-1.pgdg110+1)
+> `$ docker pull postgres`  
+
+version :  
+>  (PostgreSQL) 15.1 (Debian 15.1-1.pgdg110+1)
 
 ## docker run command
 ```sh
@@ -31,8 +33,9 @@ docker run -d -p 127.0.0.1:5432:5432 --name lab-postgresql \
 ## manipulate postgresql
 ### commands postresql db shell
 > `$ psql -U postgres`
+
 ### create user
-> `$ CREATE USER <USER_NAME> WITH PASSWORD '<PASSWORD>' SUPERUSER CREATEDB CREATEROLE REPLICATION;`
+> `$ CREATE USER <USER_NAME> WITH PASSWORD '<PASSWORD>' SUPERUSER CREATEDB CREATEROLE REPLICATION;`  
 > https://myinfrabox.tistory.com/234
 ### check users
 > `$ \du`
@@ -42,7 +45,10 @@ docker run -d -p 127.0.0.1:5432:5432 --name lab-postgresql \
 ## [GUI Tools pgAdmin]
 version
 > 6.19
+
 pgAdmin page 
-> https://www.pgadmin.org/
-> `$ brew search pgadmin`
-> `$ brew install cask pgadmin4`
+> https://www.pgadmin.org  
+
+brew install  
+> `$ brew search pgadmin`  
+> `$ brew install cask pgadmin4`  
