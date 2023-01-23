@@ -44,6 +44,5 @@ version
 > 6.19
 pgAdmin page 
 > https://www.pgadmin.org/
-[ mac ]
 > `$ brew search pgadmin`
 > `$ brew install cask pgadmin4`
